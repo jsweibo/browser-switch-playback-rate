@@ -1,0 +1,33 @@
+{
+  "name": "browser-switch-playback-rate",
+  "version": "1.0.0",
+  "description": "It can switch the playback rate of audios and videos",
+  "private": true,
+  "scripts": {
+    "build": "gulp",
+    "lint": "eslint src",
+    "prettier": "prettier --write src",
+    "dev": "gulp dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jsweibo/browser-switch-playback-rate.git"
+  },
+  "keywords": [
+    "browser-switch-playback-rate"
+  ],
+  "author": "jsweibo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jsweibo/browser-switch-playback-rate/issues"
+  },
+  "homepage": "https://github.com/jsweibo/browser-switch-playback-rate#readme",
+  "devDependencies": {
+    "delete": "^1.1.0",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "^8.8.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "gulp": "^4.0.2",
+    "prettier": "^2.8.8"
+  }
+}
